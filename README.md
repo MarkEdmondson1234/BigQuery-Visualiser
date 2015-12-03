@@ -5,6 +5,8 @@ Open sourced so you can deploy on your own Shiny server.
 
 ## Introduction
 
+![bigQuery-demo](bigQueryViz-demo-image.png)
+
 After releasing the public Shiny app [BigQuery Visualiser](https://mark.shinyapps.io/bigquery-viz/) Nov 2015, good feedback was how it couldn't be used by some organisations due to security policy to not let unknown apps access to your BigQuery account.  
 
 Since there is not yet a read only BigQuery scope, one alternative is to allow a JSON upload for verification, but this is pending a [fix in httr](https://github.com/hadley/httr/issues/275)
