@@ -21,6 +21,7 @@ This leaves this solution, allowing users to download their own copy of the Shin
 install.packages("devtools")
 devtools::install_github("MarkEdmondson1234/googleAuthR")
 devtools::install_github("MarkEdmondson1234/bigQueryR")
+devtools::install_github("timelyportfolio/listviewer")
 ```
 * Create your own [Google Project in the Dev console](https://developers.google.com/console/help/new/)
 * The BigQuery API is automatically enabled for new projects, but if using an old project [enable it](https://cloud.google.com/bigquery/sign-up).

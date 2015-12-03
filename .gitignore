@@ -1,2 +1,6 @@
 
 *.Rproj*
+
+.RData
+
+.Rhistory
